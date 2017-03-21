@@ -3,7 +3,7 @@
         $('#button').click(function(){
             $.ajax({
                 type:"GET",
-                url:"D:/mddemo/ajax/json/music.txt", //路径
+                url:"music.txt", //路径
                 dataType:"json",
                 success:function(data){
                 var music="<h2>";
