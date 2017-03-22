@@ -1,5 +1,6 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <head>
+<meta charset="UTF-8" />
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="ajax.js"></script>
 </head>
@@ -12,5 +13,22 @@
         <div>添加新的音乐</div>
         <input type="text" name="" id="" value="" />
         <input type="button" id="button2" value="添加" />
+
+        <form action="">
+                手机号码:<br>
+                <br>
+                <input class="input1" id="input1" type="text" name="firstname" maxlength="11" onblur="input()">
+                <p style="color: red;" id="yan1" class="yan1">必须填写</p>
+                <br>
+                密码：<br>
+                <input class="input2" onblur="test()" id="input2" type="text" name="lastname" > <br>
+                <p style="color: red;" id="yan2"  class="yan2">必须填写</p><br>
+                <div class="textright"><a href="logo.html">验证码登陆</a></div>
+
+                <input type="checkbox">记住我的帐号<br>
+                <input class="input3" type="submit" value="登录">
+        </form>
+
+
     </body>
 </html>
