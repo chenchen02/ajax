@@ -12,6 +12,7 @@
                         if ($(".input1").val() == info["firstName"]) {
 
                         alert("chengg");
+                    window.open("www.baidu.com");
 
                     }
 
