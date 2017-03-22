@@ -4,7 +4,7 @@
 
 $.ajax({       
     type:"POST",//请求方式  
-    url:music.txt,//请求路径  
+    url:"music.txt",//请求路径
     dataType: "json",//数据格式  
     success: function(resultData){//成功处理函数        
     $.each(resultData,function(i,item){//遍历返回json数据，i为数据号，item当前数据  
