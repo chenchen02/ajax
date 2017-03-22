@@ -2,9 +2,16 @@
     $(document).ready(function(){
         $(".input3").click(function(){
 
+$.ajax({
 
-  htmlobj=$.ajax({url:"music.txt",async:false});
-  alert(htmlobj.responseText);
+url:"music.txt",dataType: "json",async:false,
+
+success: function(jsondata){
+            output(jsondata);
+        }
+
+});
+  
 
            
         });
