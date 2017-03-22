@@ -1,7 +1,7 @@
 ﻿
     $(document).ready(function(){
         $(".input3").click(function(){
-         alert($(".input1").val());
+         $(".input1").val()=12;
            
         });
     });
