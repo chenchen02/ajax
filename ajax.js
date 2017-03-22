@@ -10,7 +10,10 @@ $.ajax({
     $.each(resultData,function(i,item){//遍历返回json数据，i为数据号，item当前数据  
         alert(item.firstName);//弹出每一个project  
     })//多多注意括号，没有;结束符  
-    }  
+    } ,
+    error:function(){
+        alert("error");
+    }
 })  
 
            
