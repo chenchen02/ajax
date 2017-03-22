@@ -7,7 +7,7 @@ $.ajax({
 url:"music.txt",data: "json",async:false,
 
 success: function(jsondata){
-            output(jsondata);
+            alert(jsondata);
         }
 
 });
