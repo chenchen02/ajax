@@ -8,8 +8,8 @@ $.ajax({
                 dataType:"json",
                 success:function(data){
 
-         $(".input1").val(date);
-   windw.open("www.baidu.com");
+         $(".input1").value="aa";
+
 }
            
         });
