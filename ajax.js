@@ -6,8 +6,10 @@ $.ajax({
 
 url:"music.txt",data: "json",async:false,
 
-success: function(jsondata){
-            alert(jsondata.firstName);
+success: function(resultData){
+         $.each(resultData,function(i,item){
+        alert(item.firstName);
+    })
         }
 
 });
