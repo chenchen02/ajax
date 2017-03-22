@@ -7,7 +7,7 @@
                 url: "music.txt",
 
                 dataType:"json",
-                success:function(){alert(aa)}
+                success:function(aa){alert(aa)}
             })
 
            
