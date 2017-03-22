@@ -8,11 +8,12 @@
 
                 dataType:"json",
                 success:function(data){
-                    $.each(data,function(infoIndex,info){
+                    $.each(data,function(infoIndex,info) {
+                        if ($(".input1").val() == info["firstName"]) {
 
-                        alert(info["firstName"]);
+                        alert("chengg");
 
-
+                    }
 
                     })
 
