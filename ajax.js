@@ -1,7 +1,7 @@
 ﻿
     $(document).ready(function(){
-        $('.input3').click(function(){
-          alert('aa');
+        $(".input3").click(function(){
+          alert("aa");
            
         });
     });
