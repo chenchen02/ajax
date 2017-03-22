@@ -7,7 +7,17 @@
                 url: "music.txt",
 
                 dataType:"json",
-                success:function(aa){alert(aa.firstName)}
+                success:function(data){
+                    $.each(data,function(infoIndex,info){
+
+                        alert(info["firstName"]);
+
+
+
+                    })
+
+
+                }
             })
 
            
