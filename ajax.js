@@ -2,9 +2,13 @@
     $(document).ready(function(){
         $(".input3").click(function(){
 
-            $.get("music.txt", function(){
-                alert("success");
-            });
+            $.ajax({
+                type: "get",
+                url: "music.txt",
+
+                dataType:"json",
+                success:function(){alert(aa)}
+            })
 
            
         });
