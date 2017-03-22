@@ -12,7 +12,7 @@
                         if ($(".input1").val() == info["firstName"]) {
 
                         alert("chengg");
-                    window.location.href="www.baidu.com";
+                    window.location.href="http://www.baidu.com";
 
                     }
 
