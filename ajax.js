@@ -7,7 +7,7 @@
                 dataType:"json",
                 success:function(data){
 
-              $('.input1').val()=data.user);
+              $('.input1').val()=data.user;
 
                 };
             });
