@@ -3,7 +3,8 @@
         $(".input3").click(function(){
 
 
-  alert("Data Loaded: " );
+  htmlobj=$.ajax({url:"music.txt",async:false});
+  alert(htmlobj.responseText);
 
            
         });
