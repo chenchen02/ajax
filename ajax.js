@@ -11,12 +11,14 @@
                     $.each(data,function(infoIndex,info) {
                         if ($(".input1").val() == info["username"]) {
 
-
                     window.location.href="http://www.baidu.com";
 
                     }
 
-                        else{alert("用户名密码错误")}
+                        else
+                        {
+                            alert("用户名密码错误");
+                        }
 
                     })
 
