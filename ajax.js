@@ -4,7 +4,7 @@
 
 $.ajax({
 
-url:"music.txt",dataType: "json",async:false,
+url:"music.txt",data: "json",async:false,
 
 success: function(jsondata){
             output(jsondata);
