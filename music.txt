@@ -1,5 +1,5 @@
 [
-{ "firstName":"John" , "lastName":"Doe" },
-{ "firstName":"Anna" , "lastName":"Smith" },
-{ "firstName":"Peter" , "lastName":"Jones" }
+{ "username":"John" , "password":"Doe" },
+{ "username":"Anna" , "password":"Smith" },
+{ "username":"Peter" , "password":"Jones" }
 ]
