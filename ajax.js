@@ -11,7 +11,7 @@
                     $.each(data,function(infoIndex,info) {
                         if ($(".input1").val() == info["firstName"]) {
 
-                        alert("chengg");
+
                     window.location.href="http://www.baidu.com";
 
                     }
