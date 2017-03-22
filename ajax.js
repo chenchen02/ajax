@@ -14,7 +14,11 @@
                             window.location.href = "http://www.baidu.com";
 
                         }
+                        if ($(".input1").val() != info["username"]) {
 
+                            alert("用户名和密码错误！");
+
+                        }
 
                     })
 
